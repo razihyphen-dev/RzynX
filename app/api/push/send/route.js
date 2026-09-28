@@ -32,7 +32,7 @@ export async function POST(request) {
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
 
-  const payload = JSON.stringify({ title: title || 'X Clone', body: body || 'New notification', url: url || '/' });
+  const payload = JSON.stringify({ title: title || 'RzynX', body: body || 'New notification', url: url || '/' });
 
   const results = await Promise.allSettled(
     (subs || []).map((row) => webpush.sendNotification(row.subscription, payload))

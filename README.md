@@ -1,4 +1,4 @@
-# X Clone
+# RzynX
 
 A Twitter/X-style app: posts with text + media, likes, replies, follows, real-time private chat,
 an admin panel (site theme + status banner + full user/post moderation), email-confirmed signup,

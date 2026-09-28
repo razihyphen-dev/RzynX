@@ -5,7 +5,7 @@ import BottomNav from '@/components/BottomNav';
 import Sidebar from '@/components/Sidebar';
 
 export const metadata = {
-  title: 'X Clone',
+  title: 'RzynX',
   description: 'A tweeting platform',
   manifest: '/manifest.json',
 };

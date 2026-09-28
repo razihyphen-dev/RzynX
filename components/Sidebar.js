@@ -10,7 +10,7 @@ export default function Sidebar() {
   return (
     <aside className="hidden md:flex flex-col w-60 shrink-0 h-screen sticky top-0 px-3 py-4 justify-between">
       <div className="flex flex-col gap-1">
-        <Link href="/" className="text-xl font-semibold px-3 py-2">X Clone</Link>
+        <Link href="/" className="text-xl font-semibold px-3 py-2">RzynX</Link>
         <Link href="/" className="px-3 py-3 rounded-full hover:bg-surface text-lg">Home</Link>
         {user && (
           <>

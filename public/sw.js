@@ -6,7 +6,7 @@ self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (event) => event.waitUntil(self.clients.claim()));
 
 self.addEventListener('push', (event) => {
-  let data = { title: 'X Clone', body: 'You have a new notification', url: '/' };
+  let data = { title: 'RzynX', body: 'You have a new notification', url: '/' };
   try {
     data = event.data.json();
   } catch (e) {
@@ -14,7 +14,7 @@ self.addEventListener('push', (event) => {
   }
 
   event.waitUntil(
-    self.registration.showNotification(data.title || 'X Clone', {
+    self.registration.showNotification(data.title || 'RzynX', {
       body: data.body,
       icon: '/icons/icon-192.png',
       badge: '/icons/icon-192.png',

@@ -67,7 +67,7 @@ export default function ProfilePage({ params }) {
             </button>
           )}
           {user && user.id === profileData.id && (
-            <a href={`/messages`} className="px-5 py-2 rounded-full border border-border">Edit profile</a>
+            <a href={`/settings`} className="px-5 py-2 rounded-full border border-border hover:bg-surface">Edit profile</a>
           )}
         </div>
         <h1 className="text-xl font-semibold mt-3 flex items-center gap-1">
